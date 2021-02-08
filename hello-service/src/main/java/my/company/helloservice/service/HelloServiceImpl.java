@@ -24,6 +24,5 @@ public class HelloServiceImpl implements HelloService {
         hello.setCount(count);
         helloRepository.save(hello);
         kafkaSender.send(count);
-        System.out.println("Добрый день");
     }
 }

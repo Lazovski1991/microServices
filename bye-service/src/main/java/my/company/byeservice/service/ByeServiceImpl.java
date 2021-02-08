@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class ByeServiceImpl implements ByeService {
 
+
+
     private final ByeRepository byeRepository;
 
     public ByeServiceImpl(ByeRepository byeRepository) {
@@ -19,5 +21,6 @@ public class ByeServiceImpl implements ByeService {
         int count = bye.getCount() + 1;
         bye.setCount(count);
         byeRepository.save(bye);
+
     }
 }

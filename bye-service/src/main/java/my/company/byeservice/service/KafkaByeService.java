@@ -6,8 +6,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class KafkaByeService {
 
+    private String count;
+
+    public String getCount() {
+        return count;
+    }
+
     @KafkaListener(topics = "hello_count_topic", groupId = "group-1")
     public void kafkaListener(String message) {
-        System.out.println("Всего доброго! Вы здоровались " + message + " раз");
+        count = message;
     }
 }

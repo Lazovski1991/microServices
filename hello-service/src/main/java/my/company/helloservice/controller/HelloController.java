@@ -19,6 +19,6 @@ public class HelloController {
     @GetMapping
     public String getHello() {
         helloService.getHelloCount();
-        return "";
+        return "hello";
     }
 }
