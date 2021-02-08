@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroServices.iml" filepath="$PROJECT_DIR$/.idea/MicroServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bye-service/bye-service.iml" filepath="$PROJECT_DIR$/bye-service/bye-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaex/eurekaex.iml" filepath="$PROJECT_DIR$/eurekaex/eurekaex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/hello-service/hello-service.iml" />
+    </modules>
+  </component>
+</project>
